@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <style>
+        #text-gradient-hover:hover{
+            background: linear-gradient(#36895F, #00552F);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+    </style>
+
+    <header class="bg-[#FFFFFF]">
+        <nav class="w-[90%] py-[10px] mx-auto flex items-center justify-between gap-[6px]">
+            <div class="flex items-center gap-[10px]">
+                <img src="./Photo/logo.png" alt="">
+                <p class="text-[14px] pl-[10px] border-l-[1px] border-l-[#7F7F7F] font-[400] leading-[17px]">Качественные детали и узлы <br> для сельскохозяйственной техники</p>
+            </div>
+            <div class="flex items-end gap-[5px]">
+                <i class="text-[19px] fa-solid fa-phone"></i>
+                <p class="text-[#161616] leading-[20px] text-[14px] flex flex-col items-end">звонок бесплатный<span class="text-[16px] font-[700]">8 800 505 72 32</span></p>
+            </div>
+            <div class="flex items-end gap-[5px]">
+                <i class="text-[19px] fa-regular fa-envelope"></i>
+                <p class="text-[#161616] leading-[20px] text-[14px] flex flex-col items-end">отвечаем быстро<span class="text-[16px] font-[700]">info@kd-grupp.com</span></p>
+            </div>
+            <div onclick="location.href='https://vk.com/'" class="w-[40px] h-[40px] cursor-pointer bg-[#0077FF] flex items-center justify-center rounded-full"><i class="text-white text-[20px] fa-brands fa-vk"></i></div>
+            <button onclick="location.href='https://www.whatsapp.com/'" class="bg-[#39B36E] gap-[5px] text-white text-[12px] font-[700] flex items-center justify-center w-[144px] h-[40px] rounded-full"><i class="text-[20px] fa-brands fa-whatsapp"></i>WhatsApp</button>
+            <button onclick="location.href='https://telegram.org/'" class="bg-[#238DBB] gap-[5px] text-white text-[12px] font-[700] flex items-center justify-center w-[144px] h-[40px] rounded-full"><i class="text-[20px] fa-brands fa-telegram"></i>Telegram</button>
+        </nav>
+
+        <nav class="w-[87%] m-auto py-[10px] flex items-center justify-between">
+            <ul class="flex items-center text-[#161616] text-[18px] font-[500] gap-[50px]">
+                <li class="hover:text-[#36895F] cursor-pointer"><a href="">ГЛАВНАЯ</a></li>
+                <select class="bg-transparent hover:text-[#36895F] cursor-pointer pr-[5px]"><option>КАТАЛОГ</option></select>
+                <li class="hover:text-[#36895F] cursor-pointer"><a href="">О НАС</a></li>
+                <li class="hover:text-[#36895F] cursor-pointer"><a href="">НОВОСТИ</a></li>
+                <li class="hover:text-[#36895F] cursor-pointer"><a href="">ПАРТНЁРЫ</a></li>
+                <li class="hover:text-[#36895F] cursor-pointer"><a href="">КОНТАКТЫ</a></li>
+            </ul>
+            <div class="bg-[#F3F3F3] text-[#8E8E8E] w-[293px] flex items-center gap-[20px] h-[41px] rounded-[50px]">
+                <i class="ml-[20px] fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="ПОИСК ПО КАТАЛОГУ" class="bg-transparent outline-none text-[13px] font-[500] tracking-[2%]">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="flex items-center w-[90%] h-[414px] m-auto relative rounded-[30px] bg-center bg-no-repeat" style="background-image: url(./Photo/Subtract-new.png);">
+            <div class="flex items-center justify-evenly relative p-[0px_20px_0px_40px]">
+                <aside>
+                   <h1 class="text-white text-[30px] font-bold">Бренд MEDO - российское производство транспортных лент, прутковых транспортеров для сельхозтехники по уробке урожая овощных культур</h1><br>
+                   <button class="bg-white text-[#36895F] text-[15px] font-semibold px-[25px] py-[7px] rounded-3xl hover:scale-110 duration-500">Оставить заявку</button>
+                </aside>
+                <img src="./Photo/img.png" alt="" class="w-[550px] h-[330px]">
+            </div>
+            <img src="./Photo/icon.png" alt="" class="absolute bottom-[-45px] cursor-pointer left-[47.5%] p-[10px] rounded-full hover:scale-110 duration-75">
+        </section>
+
+        <section class="w-[90%] m-auto mt-[100px] text-center">
+            <div class="text-[#161616]">
+                <h1 class="font-bold text-[40px]">Каталог товаров</h1>
+                <p class="text-[18px]">Небольшое описание блока размеров в две строки</p>
+            </div><br>
+
+            <section class="flex justify-between items-center text-start">
+                <article class="w-[31%] h-[290px] rounded-[20px] p-[20px_10px_10px_20px] text-[#36895F] relative shadow-lg shadow-[#D3D3D3] bg-gradient-to-r from-white to-white hover:bg-gradient-to-r hover:from-[#00552F] hover:to-[#36895F] hover:scale-105 duration-500 ease-in-out hover:text-white">
+                    <h1 class="font-bold text-[26px]">Свеклоуборочная <br>техника</h1>
+                    <img src="./Photo/img(1).png" alt="" class="absolute bottom-0 right-[10px]">
+                </article>
+
+                <article class="w-[31%] h-[290px] rounded-[20px] p-[20px_10px_10px_20px] text-[#36895F] relative shadow-lg shadow-[#D3D3D3] bg-gradient-to-r from-white to-white hover:bg-gradient-to-r hover:from-[#00552F] hover:to-[#36895F] hover:scale-105 duration-500 ease-in-out hover:text-white">
+                    <h1 class="font-bold text-[26px]">Картофелеуборочная <br>техника
+                    </h1>
+                    <img src="./Photo/img(2).png" alt="" class="absolute bottom-0 right-[10px]">
+                </article>
+
+                <article class="w-[31%] h-[290px] rounded-[20px] p-[20px_10px_10px_20px] text-[#36895F] relative shadow-lg shadow-[#D3D3D3] bg-gradient-to-r from-white to-white hover:bg-gradient-to-r hover:from-[#00552F] hover:to-[#36895F] hover:scale-105 duration-500 ease-in-out hover:text-white">
+                    <h1 class="font-bold text-[26px]">Транспортеры <br>MEDO</h1>
+                    <img src="./Photo/img(3).png" alt="" class="absolute bottom-0 right-[10px]">
+                </article>
+            </section><br>
+
+            <button class="bg-[#36895F] text-white text-[15px] font-semibold px-[25px] py-[7px] rounded-3xl hover:scale-110 duration-500" style="background: linear-gradient(to right, #36895F, #00552F);">ПЕРЕЙТИ В КАТАЛОГ</button>  
+        </section>
+
+        <section class="w-[90%] m-auto mt-[100px]">
+            <section class="flex flex-col gap-[15px]">
+                <h1 class="w-fit m-auto font-bold text-[40px]">О компании</h1>
+                <p class="text-[18px]">ООО «КД-ГРУПП» — это команда единомышленников и профессионалов в таких направлениях, как сельскохозяйственная и специальная техника. Основной состав компании сформирован из инженеров-производственников, которые не по наслышке знают все трудности и проблемы, с которыми Вам приходится сталкиваться в процессе работы с техникой. Мы всегда готовы прийти Вам на помощь.</p>
+                <p class="text-[18px]">А также, наша компания предлагает к поставке прутковые транспортеры и комплектующие собственного производства под брендом MEDO.В кратчайшие сроки выполним заказ на изготовление транспортера для сельхозтехники по уборке урожая овощных культур.Дополнительно, мы оказывает услуги по восстановлению ваших б/у транспортёров с заменой всех ремней, пластинок, заклёпок и замков.</p>
+                <div class="flex gap-[100px] m-auto">
+                    <article>
+                        <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-[#36895F] to-[#00552F] text-[50px] font-bold">500</h1>
+                        <p class="text-[19px] font-semibold mt-[-10px]">товаров</p>
+                    </article>
+
+                    <article>
+                        <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-[#36895F] to-[#00552F] text-[50px] font-bold">300+</h1>
+                        <p class="text-[19px] font-semibold mt-[-10px]">клиентов</p>
+                    </article>
+
+                    <article>
+                        <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-[#36895F] to-[#00552F] text-[50px] font-bold">15</h1>
+                        <p class="text-[19px] font-semibold mt-[-10px]">специалистов</p>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <section class="mt-[40px] w-[90%] mx-auto flex justify-between items-center gap-[30px]">
+            <article>
+                <img src="./Photo/imge.png" alt="">
+            </article>
+            <article>
+                <img src="./Photo/imge(1).png" alt="">
+            </article>
+            <article>
+                <img src="./Photo/imge(2).png" alt="">
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-[#EFEFEF] mt-[100px]">
+        <div class="w-[93.5%] m-auto py-[20px] flex justify-between items-end">
+            <img src="./Photo/logo.png" alt="">
+            <div class="text-[40px] mr-[105px]">
+                <i onclick="location.href='https://vk.com/'" class="cursor-pointer fa-brands fa-vk hover:scale-110 duration-300" style="color: #0077FF;"></i>
+                <i onclick="location.href='https://telegram.org/'" class="cursor-pointer fa-brands fa-telegram hover:scale-110 duration-300" style="color: #29A0E5;"></i>
+                <i onclick="location.href='https://www.whatsapp.com/'" class="cursor-pointer fa-brands fa-whatsapp hover:scale-110 duration-300" style="color: #2CA138;"></i>
+            </div>
+        </div>
+
+        <div class="w-[90%] m-auto pb-[50px] flex items-start justify-between">
+            <ul class="font-[400] text-[15px] flex flex-col gap-[10px]">
+                <h1 class="text-[22px] font-bold">Информация</h1>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">О нас</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Партнерам</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Карьера</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Контакты</a></li>
+            </ul>
+
+            <ul class="font-[400] text-[15px] flex flex-col gap-[10px]">
+                <h1 class="text-[22px] font-bold">Каталог</h1>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Свеклоуборочная <br>техника</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Картофелеуборочная <br>техника</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="./page2.html">Транспортеры MEDO</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Комплектующие MEDO</a></li>
+            </ul>
+
+            <ul class="font-[400] text-[15px] flex flex-col gap-[10px]">
+                <h1 class="text-[22px] font-bold">Блог</h1>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">Новости</a></li>
+                <li id="text-gradient-hover" class="hover:scale-[1.05]"><a href="">События</a></li>
+            </ul>
+
+            <ul class="font-[400] text-[15px] flex flex-col gap-[10px]">
+                <h1 class="text-[22px] font-bold">Адрес</h1>
+                <li>юридический и фактический: <br><span class="text-[16px] font-semibold">117638, Россия, г. Москва, <br>ул. Криворожская, д. 6А, стр. 2, <br>пом. 236</span></li>
+                <li>адрес производства: <br><span class="text-[16px] font-semibold">г. Брянск, Московский проезд, д10а</span></li>
+            </ul>
+
+            <ul class="font-[400] text-[15px] flex flex-col gap-[10px]">
+                <h1 class="text-[22px] font-bold">Адрес</h1>
+                <li>звонок бесплатный <br><span class="text-[23px] font-semibold">8 800 505 72 32</span></li>
+                <li>электронная почта <br><span class="text-[23px] font-semibold">info@kd-grupp.com</span></li>
+                <button class="w-[185px] h-[46px] rounded-[40px] font-semibold text-[#36895F] border border-[#36895F] border-solid hover:scale-110 duration-500">НАПИСАТЬ НАМ</button>
+            </ul>
+        </div>
+
+        <div class="text-[14px] text-[#161616] pb-[20px] w-[90%] m-auto flex justify-between items-center">
+            <p>© 2020 ООО «КД-Групп». Все права защищены</p>
+            <p>Разработка и продвижение SilverDuck</p>
+        </div>
+    </footer>
+</body>
+</html>
